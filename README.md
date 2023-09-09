@@ -3,7 +3,7 @@
 Offline compilation and analysis of ShaderLab and ShaderGraph shaders, using the Mali Offline Shader Compiler.
 
 <p align="center">
-  <img width="100%" src="https://github.com/eldnach/shader-perf/blob/main/.github/images/shader-perf-metrics.png?raw=true" alt="ShaderPerf">
+  <img width="100%" src="https://github.com/eldnach/shader-perf-metrics/blob/main/.github/images/shader-perf-metrics.png?raw=true" alt="ShaderPerf">
 </p>
 
 Additional shader compilers may be supported in the future.
