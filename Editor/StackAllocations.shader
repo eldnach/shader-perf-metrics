@@ -1,4 +1,4 @@
-Shader "Unlit/TestShader"
+Shader "StackAllocations"
 {
     Properties
     {
@@ -50,14 +50,14 @@ Shader "Unlit/TestShader"
                 UNITY_TRANSFER_FOG(o,o.vertex);
                 return o;
             }
-            #define NUM 32
+            #define NUM 1028
 
             output frag (v2f i) 
             {
                 output o;
 
                 int index = int(NUM % 2);
-                // uncomment netxt line to introduce dynamic indexing and disable compiler optimizations:
+                // uncomment next line to introduce dynamic indexing and disable compiler optimizations:
                 index = (i.uv.x * NUM) % NUM; 
         
                 float arr[NUM];   
